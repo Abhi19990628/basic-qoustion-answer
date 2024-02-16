@@ -245,4 +245,23 @@ for i in range (1, 11):
 a[-1]=temp
 print("new list is")
 print(a)
-      
+
+
+def sum_of_element(arr , n):
+sum=0
+for i in range n:
+    sum=sum+arr[i]
+    return sum
+arr=[23,21,34,21,234,21,34,21]
+n=len(arr)
+
+print(sum_of_element(arr ,n))
+
+def multiple(arr , n)
+mul = 1
+for i in range n:
+    p=p*arr[i]
+    return p
+arr=[1,2,3,4,45,]
+n= len(arr)
+print(multiple)
